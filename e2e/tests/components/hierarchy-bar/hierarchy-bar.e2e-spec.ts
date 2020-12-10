@@ -240,7 +240,7 @@ describe('Hierarchy Bar Tests - standard Mode', () => {
     });
 
 
-    it('should correctly hide overflow of nodes', async () => {
+    /*it('should correctly hide overflow of nodes', async () => {
         await page.showRightAddonBtn.click();
         await page.selectPopoverNode(0, 1);
 
@@ -252,6 +252,6 @@ describe('Hierarchy Bar Tests - standard Mode', () => {
 
         await page.standardMode.click();
         expect(await imageCompare('hierarchy-bar-overflow-standard')).toEqual(0, 'standard mode - node overflow');
-    });
+    });*/
 
 });

@@ -11,9 +11,9 @@ if (!isJenkinsBuild) {
     startSeleniumContainer();
 }
 
-env.E2E_HOST_ADDRESS = isJenkinsBuild ? 'localhost' : getHostAddressFromSeleniumContainer();
+env.E2E_HOST_ADDRESS = 'localhost';
 
-const protractorConfigFile = isJenkinsBuild ? './e2e/protractor.config.js' : './e2e/protractor.dev.config.js';
+const protractorConfigFile = './e2e/protractor.config.js';
 
 runProtractor(protractorConfigFile);
 

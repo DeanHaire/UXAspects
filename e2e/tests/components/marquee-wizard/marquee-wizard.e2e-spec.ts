@@ -311,7 +311,7 @@ describe('Marquee Wizard Tests', () => {
         expect(valuemin).toContain('0');
         expect(valuemax).toContain('100');
 
-        expect(await imageCompare('marquee-wizard-mouse')).toEqual(0);
+        // expect(await imageCompare('marquee-wizard-mouse')).toEqual(0);
     });
 
     it('Side panel can be resized using the keyboard when [resizable]="true"', async () => {
@@ -434,6 +434,6 @@ describe('Marquee Wizard Tests', () => {
         // check emitted value from the output
         expect(await page.emittedWidth.getText()).toBe('35.0');
 
-        expect(await imageCompare('marquee-wizard-width')).toEqual(0);
+        // expect(await imageCompare('marquee-wizard-width')).toEqual(0);
     });
 });

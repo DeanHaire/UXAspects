@@ -97,7 +97,7 @@
     "awesome-typescript-loader": "5.2.1",
     "babel-loader": "^8.1.0",
     "cheerio": "^1.0.0-rc.2",
-    "chromedriver": "83.0.0",
+    "chromedriver": "^87.0.2",
     "circular-dependency-plugin": "^5.0.2",
     "codelyzer": "^5.0.1",
     "copy-webpack-plugin": "^6.0.3",
